@@ -1,5 +1,9 @@
 /* Start Basics */
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 /* End Basics */
+img {
+  width: 200px;
+  height: 200px;
+}

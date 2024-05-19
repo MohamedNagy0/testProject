@@ -1,9 +1,47 @@
 /* Start Basics */
-body {
-  font-family: "Poppins", sans-serif;
+*,
+::after,
+::before {
+  box-sizing: border-box;
 }
+
+body,
+h1,
+p {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+img {
+  width: 100%;
+  display: block;
+}
+
 /* End Basics */
+
+/* Start Header */
+.header-section {
+  height: 100vh;
+  background-color: aqua;
+}
+article {
+  width: 500px;
+  height: 500px;
+  background-color: bisque;
+  margin-inline: auto;
+  margin-top: 75px;
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  box-shadow: -1px 525px 0px 20px beige, -1px -525px 0px 20px beige,
+    -525px 0px 0px 20px beige, 525px 0px 0px 20px beige;
+}
+p {
+  /* width: 800px; */
+  text-align: center;
+  margin-bottom: 25px;
+}
 img {
   width: 200px;
-  height: 200px;
+  margin-inline: auto;
 }
+/* End Header */

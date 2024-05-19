@@ -13,33 +13,35 @@ p {
 }
 img {
   width: 100%;
-  display: block;
 }
 
 /* End Basics */
 
 /* Start Header */
-.header-section {
-  height: 100vh;
-  background-color: aqua;
+section {
+  background-color: beige;
+  width: 100%;
+  /* text-align: center; */
 }
 article {
-  width: 500px;
-  height: 500px;
-  background-color: bisque;
-  margin-inline: auto;
-  margin-top: 75px;
-  padding: 25px;
-  box-sizing: border-box;
-  border-radius: 30px;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 50px;
+  display: inline-block;
+  width: 33.3%;
+}
+i {
+  background-color: #352fdd;
+  font-size: 40px;
+  padding: 30px;
+  border-radius: 50%;
+  color: white;
+}
+h2 {
+  font-weight: 500;
+  color: rgb(54, 52, 52);
 }
 p {
-  /* width: 800px; */
-  text-align: center;
-  margin-bottom: 25px;
-}
-img {
-  width: 200px;
-  margin-inline: auto;
+  color: rgb(82, 78, 78);
 }
 /* End Header */

@@ -32,8 +32,6 @@ article {
   padding: 25px;
   box-sizing: border-box;
   border-radius: 30px;
-  box-shadow: -1px 525px 0px 20px beige, -1px -525px 0px 20px beige,
-    -525px 0px 0px 20px beige, 525px 0px 0px 20px beige;
 }
 p {
   /* width: 800px; */

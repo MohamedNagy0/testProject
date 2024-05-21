@@ -12,8 +12,16 @@ h4,
 h5,
 h6,
 p {
+<<<<<<< HEAD
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+img {
+  width: 100%;
+=======
     font-family: "Poppins", "sans-serif";
     margin: 0;
+>>>>>>> a17c51211bb4df6f4e0e6aac249db44b351155de
 }
 
 a,
@@ -38,6 +46,32 @@ span {
 */
 
 /* Start Header */
+<<<<<<< HEAD
+section {
+  background-color: beige;
+  width: 100%;
+  display: flex;
+}
+article {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 50px;
+  width: 33.3%;
+}
+i {
+  background-color: #352fdd;
+  font-size: 40px;
+  padding: 30px;
+  border-radius: 50%;
+  color: white;
+}
+h2 {
+  font-weight: 500;
+  color: rgb(54, 52, 52);
+}
+p {
+  color: rgb(82, 78, 78);
+=======
 .row {
     display: flex;
 }
@@ -46,5 +80,6 @@ span {
 }
 .card img {
     width: 100%;
+>>>>>>> a17c51211bb4df6f4e0e6aac249db44b351155de
 }
 /* End Header */

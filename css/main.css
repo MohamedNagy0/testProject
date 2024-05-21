@@ -2,22 +2,51 @@
 *,
 ::after,
 ::before {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body,
-h1,
+h1 h2,
+h3,
+h4,
+h5,
+h6,
 p {
+<<<<<<< HEAD
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
 img {
   width: 100%;
+=======
+    font-family: "Poppins", "sans-serif";
+    margin: 0;
+>>>>>>> a17c51211bb4df6f4e0e6aac249db44b351155de
 }
 
+a,
+span {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+}
 /* End Basics */
 
+/*
+ align-self: ✅
+
+ order:
+
+ flex-grow:
+
+ flex-shrink:
+
+ flex-basis:
+ 
+*/
+
 /* Start Header */
+<<<<<<< HEAD
 section {
   background-color: beige;
   width: 100%;
@@ -42,5 +71,15 @@ h2 {
 }
 p {
   color: rgb(82, 78, 78);
+=======
+.row {
+    display: flex;
+}
+.col {
+    width: 25%;
+}
+.card img {
+    width: 100%;
+>>>>>>> a17c51211bb4df6f4e0e6aac249db44b351155de
 }
 /* End Header */

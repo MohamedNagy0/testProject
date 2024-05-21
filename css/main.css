@@ -2,7 +2,7 @@
 *,
 ::after,
 ::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body,
@@ -12,15 +12,15 @@ h4,
 h5,
 h6,
 p {
-    font-family: "Poppins", "sans-serif";
-    margin: 0;
+  font-family: "Poppins", "sans-serif";
+  margin: 0;
 }
 
 a,
 span {
-    color: inherit;
-    display: inline-block;
-    text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
 }
 /* End Basics */
 
@@ -39,12 +39,14 @@ span {
 
 /* Start Header */
 .row {
-    display: flex;
+  display: flex;
+  flex-wrap: wrap;
 }
 .col {
-    width: 25%;
+  width: 25%;
+  padding: 20px;
 }
 .card img {
-    width: 100%;
+  width: 100%;
 }
 /* End Header */

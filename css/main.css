@@ -2,7 +2,7 @@
 *,
 ::after,
 ::before {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body,
@@ -12,42 +12,45 @@ h4,
 h5,
 h6,
 p {
-  font-family: "Poppins", "sans-serif";
-  margin: 0;
+    font-family: "Poppins", "sans-serif";
+    margin: 0;
 }
 
 a,
 span {
-  color: inherit;
-  display: inline-block;
-  text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
 }
 /* End Basics */
 
-/*
- align-self: ✅
-
- order:
-
- flex-grow:
-
- flex-shrink:
-
- flex-basis:
- 
-*/
-
 /* Start Header */
 .row {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 .col {
-  width: 25%;
-  padding: 20px;
+    padding: 20px;
+    width: 100%;
 }
 
 .card img {
-  width: 100%;
+    width: 100%;
 }
 /* End Header */
+
+@media screen and (min-width: 768px) {
+    .col {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 990px) {
+    .col {
+        width: 33.333%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .col {
+        width: 25%;
+    }
+}

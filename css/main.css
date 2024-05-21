@@ -2,46 +2,49 @@
 *,
 ::after,
 ::before {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body,
-h1,
+h1 h2,
+h3,
+h4,
+h5,
+h6,
 p {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-}
-img {
-  width: 100%;
+    font-family: "Poppins", "sans-serif";
+    margin: 0;
 }
 
+a,
+span {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+}
 /* End Basics */
 
+/*
+ align-self: ✅
+
+ order:
+
+ flex-grow:
+
+ flex-shrink:
+
+ flex-basis:
+ 
+*/
+
 /* Start Header */
-section {
-  background-color: beige;
-  width: 100%;
-  /* text-align: center; */
+.row {
+    display: flex;
 }
-article {
-  background-color: aquamarine;
-  text-align: center;
-  padding: 50px;
-  display: inline-block;
-  width: 33.3%;
+.col {
+    width: 25%;
 }
-i {
-  background-color: #352fdd;
-  font-size: 40px;
-  padding: 30px;
-  border-radius: 50%;
-  color: white;
-}
-h2 {
-  font-weight: 500;
-  color: rgb(54, 52, 52);
-}
-p {
-  color: rgb(82, 78, 78);
+.card img {
+    width: 100%;
 }
 /* End Header */

@@ -2,7 +2,7 @@
 *,
 ::after,
 ::before {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body,
@@ -13,315 +13,246 @@ h4,
 h5,
 h6,
 p {
-  font-family: "Nunito", sans-serif;
-  margin: 0;
+    font-family: "Nunito", sans-serif;
+    margin: 0;
 }
 
 a,
 span {
-  color: inherit;
-  display: inline-block;
-  text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .text-center {
-  text-align: center;
+    text-align: center;
 }
 .h2-color {
-  color: rgb(73, 60, 62);
-  font-weight: 700;
+    color: rgb(73, 60, 62);
+    font-weight: 700;
 }
 .h3-color {
-  color: rgb(170, 170, 170);
-  font-weight: 400;
+    color: rgb(170, 170, 170);
+    font-weight: 400;
 }
 .shadow {
-  box-shadow: 0px 3px 20px 0px #ccc;
+    box-shadow: 0px 3px 20px 0px #ccc;
 }
 .rounded {
-  border-radius: 5px;
+    border-radius: 5px;
 }
 .order-2 {
-  order: 1;
+    order: 1;
 }
 .order-4 {
-  order: 99;
+    order: 99;
 }
 
 .title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  margin-block: 15px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-block: 15px 50px;
 
-  text-align: center;
+    text-align: center;
 }
 .title span {
-  background-color: hotpink;
-  padding: 10px 20px;
-  border-radius: 20px;
+    background-color: hotpink;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
 /* End Basics */
 
 /* Start Header */
 header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-image: url(../img/bg-imgs/header-bg.jpg);
-  background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../img/bg-imgs/header-bg.jpg);
+    background-size: cover;
 }
 header .title span {
-  background-color: rgba(0, 0, 0, 0.336);
+    background-color: rgba(0, 0, 0, 0.336);
 }
 /* End Header */
 
 /* Start Main */
 main {
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
 }
 /* Start Section One */
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .col {
-  width: 100%;
-  padding: 10px;
+    width: 100%;
+    padding: 10px;
 }
 .card {
-  background: white;
+    background: white;
 }
 
 .card img {
-  width: 100%;
-  border-radius: inherit;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+    width: 100%;
+    border-radius: inherit;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 footer {
-  padding: 20px;
+    padding: 20px;
 }
 .border {
-  border-bottom: 5px solid rgb(82, 79, 79);
+    border-bottom: 5px solid rgb(82, 79, 79);
 }
 
 /* End Section One */
 
 /* Start Desgin Section */
 .ds {
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .desgin-section-one {
-  background-image: url(../img/bg-imgs/desgin-section-bg/desgin-section-bg\ 2.jpg);
+    background-image: url(../img/bg-imgs/desgin-section-bg/desgin-section-bg\ 2.jpg);
 }
 .desgin-section-two {
-  background-image: url(../img/bg-imgs/desgin-section-bg/desgin-section-bg\ 3.jpg);
-}
-.desgin-section-three {
-  background-image: url(../img/bg-imgs/desgin-section-bg/desgin-section-bg\ 4.jpg);
+    background-image: url(../img/bg-imgs/desgin-section-bg/desgin-section-bg\ 3.jpg);
 }
 /* End Desgin Section */
 
 /* Start Cards two */
 .row-two {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 .col-two {
-  width: 100%;
-  padding: 20px;
+    width: 100%;
+    padding: 20px;
 }
 .card-two {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 .card-two-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #184be9;
-  width: 100px;
-  height: 100px;
-  font-size: 40px;
-  color: white;
-  border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #184be9;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
 }
 .card-two footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 .card-two footer h2 {
-  font-weight: 500;
+    font-weight: 500;
 }
 .card-two footer p {
-  color: rgb(73, 72, 72);
+    color: rgb(73, 72, 72);
 }
 
 /* End Cards two */
 
 /* Start Section three */
 .row-three {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 10px;
-  gap: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    gap: 30px 0px;
 }
 .col-three {
-  width: 100%;
+    width: 100%;
 }
 .card-three {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 10px;
-  border: 1px solid rgba(207, 204, 204, 0.534);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10px;
+    border: 1px solid rgba(207, 204, 204, 0.534);
 }
 .card-three i {
-  background-color: #1978cc;
-  padding: 20px;
-  font-size: 40px;
-  box-shadow: -8px -6px #1978cc61;
-  border-radius: 5px;
-  color: white;
+    background-color: #1978cc;
+    padding: 20px;
+    font-size: 40px;
+    box-shadow: -8px -6px #1978cc61;
+    border-radius: 5px;
+    color: white;
 }
 .card-three footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 .card-three footer h2 {
-  font-weight: 700;
-  color: #02294b;
+    font-weight: 700;
+    color: #02294b;
 }
 .card-three footer p {
-  color: #292828;
+    color: #292828;
 }
 
 /* End Section Three */
 
-/* Start Section Four */
-
-.card-four-one {
-  background-color: #0161f3;
-}
-.card-four-two {
-  background-color: #f4a000;
-}
-.card-four-three {
-  background-color: #00ac6a;
-}
-.card-four-four {
-  background-color: #e81500;
-}
-.row-four {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-  /* gap: 30px; */
-}
-.col-four {
-  width: 100%;
-  padding: 10px;
-}
-.card-four {
-  display: flex;
-  flex-direction: column;
-  border-radius: 7px;
-}
-
-.card-caption-four {
-  display: flex;
-  height: 80px;
-  justify-content: space-between;
-  padding: 0px 25px;
-  align-items: center;
-  box-shadow: -1px 2px 0px 0px #3d3d3d12;
-  color: white;
-}
-.card-caption-four h5 {
-  color: #ffffffcc;
-  font-weight: 300;
-}
-.card-caption-four span {
-  letter-spacing: 0.5px;
-  font-weight: 700;
-}
-.card-caption-four div i {
-  font-size: 30px;
-  color: #e0e0e0;
-  font-weight: 100;
-}
-
-.card-four footer a {
-  font-size: 15px;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-}
-
-/* End Section Four */
-
 /* End Main */
 @media screen and (min-width: 768px) {
-  .col,
-  .col-two,
-  .col-three,
-  .col-four {
-    width: 50%;
-  }
-  .row-three {
-    gap: 0px;
-  }
+    .col,
+    .col-two,
+    .col-three {
+        width: 50%;
+    }
+    .row-three {
+        gap: 0px;
+    }
 }
 @media screen and (min-width: 990px) {
-  .col,
-  .col-two,
-  .col-three,
-  .col-four {
-    width: 33.333%;
-  }
+    .col,
+    .col-two,
+    .col-three {
+        width: 33.333%;
+    }
 
-  header {
-    background-position: right bottom;
-  }
+    header {
+        background-position: right bottom;
+    }
 }
 @media screen and (min-width: 1200px) {
-  .col,
-  .col-three,
-  .col-four {
-    width: 25%;
-  }
+    .col,
+    .col-three {
+        width: 25%;
+    }
 }
 @media screen and (min-width: 1400px) {
-  .col-lg {
-    width: 20%;
-  }
+    .col-lg {
+        width: 20%;
+    }
 }
 @media screen and (min-width: 1500px) {
-  .col-xl {
-    width: 16.6666%;
-  }
+    .col-xl {
+        width: 16.6666%;
+    }
 }

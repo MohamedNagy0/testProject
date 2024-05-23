@@ -218,6 +218,69 @@ footer {
 
 /* End Section Three */
 
+/* Start Section Four */
+
+.card-four-one {
+    background-color: #0161f3;
+}
+.card-four-two {
+    background-color: #f4a000;
+}
+.card-four-three {
+    background-color: #00ac6a;
+}
+.card-four-four {
+    background-color: #e81500;
+}
+.row-four {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    /* gap: 30px; */
+}
+.col-four {
+    width: 100%;
+    padding: 10px;
+}
+.card-four {
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+}
+
+.card-caption-four {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0px 25px;
+    align-items: center;
+    box-shadow: -1px 2px 0px 0px #3d3d3d12;
+    color: white;
+}
+.card-caption-four h5 {
+    color: #ffffffcc;
+    font-weight: 300;
+}
+.card-caption-four span {
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+.card-caption-four div i {
+    font-size: 30px;
+    color: #e0e0e0;
+    font-weight: 100;
+}
+
+.card-four footer a {
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* End Section Four */
+
 /* End Main */
 @media screen and (min-width: 768px) {
     .col,

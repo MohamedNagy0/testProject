@@ -66,7 +66,7 @@ span {
 /* End Basics */
 
 /* Start Header */
-header {
+.header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -223,18 +223,6 @@ footer {
 
 /* Start Section Four */
 
-.card-four-one {
-  background-color: #0161f3;
-}
-.card-four-two {
-  background-color: #f4a000;
-}
-.card-four-three {
-  background-color: #00ac6a;
-}
-.card-four-four {
-  background-color: #e81500;
-}
 .row-four {
   display: flex;
   flex-wrap: wrap;
@@ -250,6 +238,18 @@ footer {
   display: flex;
   flex-direction: column;
   border-radius: 7px;
+}
+.card-four-one {
+  background-color: #0161f3;
+}
+.card-four-two {
+  background-color: #f4a000;
+}
+.card-four-three {
+  background-color: #00ac6a;
+}
+.card-four-four {
+  background-color: #e81500;
 }
 
 .card-caption-four {
@@ -269,7 +269,7 @@ footer {
   letter-spacing: 0.5px;
   font-weight: 700;
 }
-.card-caption-four div i {
+.card-caption-four i {
   font-size: 30px;
   color: #e0e0e0;
   font-weight: 100;

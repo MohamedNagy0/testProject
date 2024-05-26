@@ -491,7 +491,8 @@ form button:hover {
 @media screen and (min-width: 990px) {
   .col,
   .col-two,
-  .col-three {
+  .col-three,
+  .col-four {
     width: 33.333%;
   }
 
@@ -501,7 +502,8 @@ form button:hover {
 }
 @media screen and (min-width: 1200px) {
   .col,
-  .col-three {
+  .col-three,
+  .col-four {
     width: 25%;
   }
 }

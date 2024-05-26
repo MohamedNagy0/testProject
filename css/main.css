@@ -108,6 +108,9 @@ ul {
 .d-none {
   display: none;
 }
+.w-100 {
+  width: 100%;
+}
 
 /* End flex basics */
 
@@ -120,6 +123,7 @@ nav {
   left: 0;
   width: 100%;
   background-color: #ffffff;
+  z-index: 9999;
 }
 h1 {
   position: relative;
@@ -139,11 +143,11 @@ h1:hover::after {
   height: 30%;
 }
 
-ul li {
+nav ul li {
   position: relative;
 }
 
-ul li::after {
+nav ul li::after {
   content: "";
   position: absolute;
   bottom: -3px;
@@ -155,7 +159,7 @@ ul li::after {
   transition: width 350ms;
 }
 
-ul li:hover::after {
+nav ul li:hover::after {
   width: 100%;
 }
 
@@ -201,6 +205,31 @@ main {
   border-radius: inherit;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  display: block;
+}
+
+.social {
+  margin: 0;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  padding-block: 5px;
+  transition: opacity 350ms ease-in-out;
+}
+
+.social li {
+  font-size: 22px;
+
+  transition: color 350ms linear;
+}
+.social li:hover {
+  color: hotpink;
+}
+.card:hover .social {
+  opacity: 1;
 }
 footer {
   padding: 20px;
@@ -383,12 +412,70 @@ footer {
 
 /* End Section Four */
 
+/* Start Section Five */
+form {
+  gap: 20px;
+  max-width: 980px;
+  margin-bottom: 50px;
+}
+form div {
+  width: 100%;
+}
+form input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid rgb(228, 228, 228);
+  outline: 0;
+}
+
+form input:focus {
+  border: 1px solid hotpink;
+}
+form input::placeholder {
+  font-size: 15px;
+}
+textarea {
+  resize: vertical;
+  min-height: 125px;
+  border: 1px solid rgb(228, 228, 228);
+  outline: 0;
+}
+textarea::placeholder {
+  font-size: 15px;
+}
+textarea:focus {
+  border: 1px solid hotpink;
+}
+form header {
+  gap: 20px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: hotpink;
+  border: 1px solid hotpink;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+  transition: background-color 350ms linear, border 350ms linear;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: rgb(187, 42, 115);
+  border: 1px solid rgb(187, 42, 115);
+}
+/* End Section Five */
+
 /* End Main */
 @media screen and (min-width: 768px) {
   .col,
   .col-two,
-  .col-three {
+  .col-three,
+  .col-four {
     width: 50%;
+  }
+  .flex-md-row {
+    flex-direction: row;
   }
   .row-three {
     gap: 0px;

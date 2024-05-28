@@ -41,7 +41,7 @@ ul {
     font-weight: 400;
 }
 .shadow {
-    box-shadow: 0px 3px 20px 0px #ccc;
+    box-shadow: 0px 3px 20px 0px #cccccc33;
 }
 .rounded {
     border-radius: 5px;
@@ -465,104 +465,96 @@ form button:hover {
 }
 /* End Section Five */
 
-/* Start Section SVG */
+/* Start section six */
 .col-five {
+    width: 100%;
     padding: 20px;
-    background-color: #ccc;
 }
 .card {
-    padding-block: 30px;
-    transition: all 1s;
+    background-color: #ffffff;
 }
-.card:hover {
-    box-shadow: 1px 0px 20px 2px #a5a2a2;
-}
-
-.card-svg {
-    width: 150px;
-    height: 150px;
-    position: relative;
-}
-.card-svg i {
+.header-card-svg-1 i {
+    font-size: 30px;
     position: absolute;
     top: 50%;
-    left: 40%;
-    /* color: #00ac6a; */
-    font-size: 40px;
-    transition: all 1s;
-}
-.card-svg-1 {
-    color: #184be9;
-}
-.card-svg-2 {
-    color: #e7ac83;
-}
-.card-svg-3 {
-    color: #c4185f;
-}
-.card-svg-4 {
-    color: #f4bf6d;
-}
-.card-svg-5 {
-    color: #dc6747;
-}
-.card-svg-6 {
-    color: #2acdc7;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.card-svg svg {
-    position: absolute;
-    width: 175px;
-    height: 175px;
-}
-.card footer {
-    padding-bottom: 35px;
-    padding-inline: 20px;
-    margin-top: -13px;
-}
-.card footer h2 {
-    padding: 15px;
+.header-card-svg-1 {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Start SVG Controller */
-
-.stop-color {
-    stop-color: #ccc;
-    transition: all 1s;
+svg #stop1,
+svg #stop2 {
+    stop-color: #f5f5f5;
+    transition: all 350ms;
 }
-
-.card:hover .svg-1 #stop1,
-.card:hover .svg-1 #stop2 {
-    stop-color: #46aeff;
+.svg-w-h {
+    width: 250px;
+    height: 250px;
 }
-
-.card:hover .svg-2 #stop1,
-.card:hover .svg-2 #stop2 {
-    stop-color: #0e610e;
+.svg-1:hover #stop1,
+.svg-1:hover #stop2 {
+    stop-color: #09c;
 }
-.card:hover .svg-3 #stop1,
-.card:hover .svg-3 #stop2 {
-    stop-color: #b1339c;
+.svg-2:hover #stop1,
+.svg-2:hover #stop2 {
+    stop-color: rgb(204, 93, 53);
 }
-.card:hover .svg-4 #stop1,
-.card:hover .svg-4 #stop2 {
-    stop-color: #c636d3;
+.svg-3:hover #stop1,
+.svg-3:hover #stop2 {
+    stop-color: rgb(201, 54, 103);
 }
-.card:hover .svg-5 #stop1,
-.card:hover .svg-5 #stop2 {
-    stop-color: #d42929;
+.svg-4:hover #stop1,
+.svg-4:hover #stop2 {
+    stop-color: rgb(228, 181, 28);
 }
-.card:hover .svg-6 #stop1,
-.card:hover .svg-6 #stop2 {
-    stop-color: #e77517;
+.svg-5:hover #stop1,
+.svg-5:hover #stop2 {
+    stop-color: orangered;
 }
-
-.card:hover i {
+.svg-6:hover #stop1,
+.svg-6:hover #stop2 {
+    stop-color: rgb(6, 163, 163);
+}
+svg {
+    width: 100%;
+}
+.svg-1 i {
+    color: #09c;
+}
+.svg-2 i {
+    color: rgb(204, 93, 53);
+}
+.svg-3 i {
+    color: rgb(201, 54, 103);
+}
+.svg-4 i {
+    color: rgb(228, 181, 28);
+}
+.svg-5 i {
+    color: orangered;
+}
+.svg-6 i {
+    color: rgb(6, 163, 163);
+}
+.col-five footer {
+    text-align: center;
+    transform: translateY(-40px);
+}
+.col-five .card i {
+    transition: all 350ms;
+}
+.col-five .card:hover i {
     color: white;
 }
-
-/* End SVG Controller */
-/* End Section SVG */
+/* End section six */
 
 /* End Main */
 @media screen and (min-width: 768px) {
@@ -592,7 +584,8 @@ form button:hover {
     .col,
     .col-two,
     .col-three,
-    .col-four {
+    .col-four,
+    .col-five {
         width: 33.333%;
     }
 
@@ -610,9 +603,6 @@ form button:hover {
 @media screen and (min-width: 1400px) {
     .col-lg {
         width: 20%;
-    }
-    .col-five {
-        width: 33.333%;
     }
 }
 @media screen and (min-width: 1500px) {

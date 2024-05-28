@@ -548,6 +548,11 @@ svg {
     text-align: center;
     transform: translateY(-40px);
 }
+.col-five footer h2 {
+    color: #142c42;
+    font-weight: bold;
+}
+
 .col-five .card i {
     transition: all 350ms;
 }

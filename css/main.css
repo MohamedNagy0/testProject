@@ -562,12 +562,15 @@ svg {
 /* End section six */
 
 /* Start Section Seven */
-.col-seven {
-  padding: 10px;
-}
+
 .section-seven {
   background-color: #e5e9f3;
 }
+
+.col-seven {
+  padding: 10px;
+}
+
 .section-seven section {
   gap: 2px;
   font-size: 10px;
